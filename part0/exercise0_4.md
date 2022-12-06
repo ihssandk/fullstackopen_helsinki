@@ -1,4 +1,5 @@
 # Solution for part0_0.4
+### Diagram depicting when user creates a new note on page https://studies.cs.helsinki.fi/exampleapp/notes 
 ```mermaid
 sequenceDiagram
     browser->>+server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
