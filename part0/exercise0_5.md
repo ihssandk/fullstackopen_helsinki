@@ -1,5 +1,5 @@
 # Solution for part0_0.5
-~~Diagram depicting when the user goes to https://studies.cs.helsinki.fi/exampleapp/spa~~
+Diagram depicting when the user goes to https://studies.cs.helsinki.fi/exampleapp/spa [^1]
 ```mermaid
 sequenceDiagram
     browser->>+server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
