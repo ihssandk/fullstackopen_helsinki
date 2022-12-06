@@ -1,7 +1,8 @@
+# Solution for part0_0.4
 ```mermaid
 sequenceDiagram
     browser->>+server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    note over server: server asks browser to do new HTTP GET to header's Location - the address notes
+    note over server,browser: server asks browser to do new HTTP GET to header's Location - the address notes
     server-->>+browser: URL Redirect = HTTP status code 302
     browser->>+server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
     server-->>+browser: HTML-code
