@@ -1,0 +1,10 @@
+body{
+    margin : 20px;
+}
+.item{
+    margin: 2px;
+    padding :2px
+}
+.ratebutton{
+    display : flex;
+}
